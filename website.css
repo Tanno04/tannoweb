@@ -1,0 +1,138 @@
+body{
+    background-image: url(./beach-5043569_1280.jpg);
+    background-size: cover;
+}
+
+.header {
+  background-image:url(./puffin-5404178_1280.jpg);
+  background-size: cover;
+    justify-content: space-between;
+    display: flex;
+    padding: 8px;
+    height: 10vh;
+    border: 0lvh;
+}
+
+.header ul {
+    display: flex;
+    gap: 4rem;
+    padding: 10px;
+    text-align: center;
+    height: 30px;
+    align-items: center;
+    list-style: none;
+    position: relative;
+}
+
+.header ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.header ul li a:hover {
+    background-color: blue;
+    font-size:large;
+}
+
+.logo {
+    color: white;
+    font-size: 30px;
+}
+
+.logo span {
+    color: rgb(247, 11, 31);
+}
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: rgb(245, 9, 40);
+    font-size: medium;
+    
+}
+
+.header ul li:hover .dropdown-menu {
+    display: block;
+    width: 120px;
+    position: relative;
+}
+
+.dropdown-menu ul {
+    display: block;
+    position: relative;
+height:100% ;
+width:100%;
+}
+.t{
+  padding: 96px;
+
+align-items: center;
+text-align: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+}
+.t h2{
+    color: gold
+}
+.t p{
+    color: rgb(17, 1, 13);
+font-size: large;
+}
+.s img{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.cantainer{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+.card{
+
+    height:400px ;
+    width: 220px;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 6px 7px 20px 5px rgb(3, 5, 8);
+    margin: 2rem;
+    border-radius: 14px;
+    justify-content: center;
+    align-items: center;
+}
+.card:hover{
+   background-image: url(./pexels-arın-turkay-450038.jpg);
+    color: rgb(245, 8, 8);
+    font-size: large;
+}
+.card span{
+    font-size: 70px;
+    font-weight: 900;
+    font-style: italic;
+    
+}
+.card p{
+    display: flex;
+    line-height: 25px;
+    text-align: center;
+    position: relative;
+    font-size: larger;
+}
+    
+    
+
+
+
+
+
