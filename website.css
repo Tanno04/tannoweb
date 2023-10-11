@@ -88,7 +88,7 @@ font-size: large;
 }
 
 .cantainer{
-    
+    opacity: 0.8;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -113,7 +113,7 @@ font-size: large;
 }
 .card:hover{
    background-image: url(./pexels-arın-turkay-450038.jpg);
-    color: rgb(245, 8, 8);
+    
     font-size: large;
 }
 .card span{
